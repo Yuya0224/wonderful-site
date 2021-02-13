@@ -1,0 +1,33 @@
+.main {
+  background-color: black;
+  color: white;
+  height: 200px;
+}
+
+.main h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 1px white solid;
+  width: 730px;
+}
+
+.main p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+}
+/*# sourceMappingURL=main.css.map */

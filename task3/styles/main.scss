@@ -1,0 +1,24 @@
+.main{
+  // text-align: center;
+  background-color: black;
+  color: white;
+  height: 200px;
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+
+    font-size: 20px;
+    border-bottom: 1px white solid;
+    width:730px;
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+  }
+}
