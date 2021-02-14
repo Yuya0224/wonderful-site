@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.main {
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0;
+  height: 100px;
+  width: 1664px;
+  background-color: white;
+}
+
+.main .index {
+  display: block;
+  list-style: none;
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: 　white;
+  line-height: 100%;
+  word-wrap: break-word;
+}
+
+.main .index .aa {
+  display: inline-block;
+  line-height: 100px;
+  margin: 0px 20px;
+}
+
+.main .index .aa .h_logo {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  line-height: 100px;
+}
+
+.main .index .a {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .b {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .c {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .d {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .e {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .f {
+  display: inline-block;
+  line-height: 100%;
+  margin: 0px 20px;
+}
+
+.main .index .g {
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 20px;
+  background-color: yellow;
+}
+
+.h {
+  height: 1000px;
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
