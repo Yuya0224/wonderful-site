@@ -6,7 +6,7 @@
   padding: 0;
   height: 100px;
   width: 1664px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, .9);
 
 
 
@@ -110,4 +110,68 @@
 .h{
   height: 1000px;
   background-color: black;
+}
+
+.main1{
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .main{
+    display: none;
+  }
+
+  .main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 80px;
+
+
+    .logo{
+      width: 160px;
+      height: 27px;
+      left: 100px;
+
+    }
+
+    .bar{
+      display: flex;
+      width: 30px;
+      height:30px;
+      // background-color: green;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+
+
+      .bar1{
+        width: 20px;
+        height: 2px;
+        background-color: grey;
+        // align-self: flex-start;
+      }
+
+      .bar2{
+        width: 20px;
+        height: 2px;
+        background-color: grey;
+
+      }
+
+      .bar3{
+        width: 20px;
+        height: 2px;
+        background-color: grey;
+
+      }
+
+
+    }
+
+
+
+  }
 }
